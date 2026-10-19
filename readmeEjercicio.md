@@ -1,0 +1,1 @@
+Readme bueno para ejercicio clase. Se trata de una aplicacion que gestiona gastos.
