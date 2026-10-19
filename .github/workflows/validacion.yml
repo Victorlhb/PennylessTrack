@@ -1,0 +1,19 @@
+
+name: Validacion basica
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  verificar-archivos:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Comprobar archivos principales
+        run: |
+          test -s README.md
+          test -s readmeEjercicio.md
