@@ -16,4 +16,4 @@ jobs:
       - name: Comprobar archivos principales
         run: |
           test -s README.md
-          test -s readmeEjercicio.md
+          test -s archivo_inexistente_prueba.txt
